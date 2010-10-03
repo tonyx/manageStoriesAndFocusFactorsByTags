@@ -1,16 +1,16 @@
-Using the yesterday weather technique means adapting the velocity of the team looking at the history, for instance using the velocity of the last sprint.
-Actually it is simply a matter of dividing the story points with the actual days for all the story so getting a "focus factor".
+Using the yesterday weather technique means estimate the velocity of the team looking at the history, for instance using the velocity of the last sprint.
+Actually it is simply a matter of dividing the story points (initial estimates) with the actual days for all the story so getting a "focus factor".
 
-The next sprint velocity could then be estimated multiplying all the story points with  the focus factor. If the focus factor is 50%, then the team will add one half of the stories respect of their initial estimates.
+The next sprint velocity could then be estimated multiplying all the story points with the focus factor. If the focus factor is 50%, then the team will add one half of the stories respect of their initial estimates.
 
 (A slightly sophisticated variant is considering also the available man-days)
 
-All this can be found in "scrum and xp from the trenches"
+All those things are explained in "scrum and xp from the trenches"
 
-This code will suggest that the stories will also tagged, so focus factor can be different from different tagged stories.
+This code will suggest that the stories will also tagged, so focus factor can be different by different tags.
 
-It means the team can realize that all the stories tagged as “back end logic” has been realized in twice the time respect to the initial estimations, so looking at them, the focus factor should be 50%.
-However may be that the team overestimated the u.i., and then looking at the velocity for the u.i. The focus factor is 100%, so if in the next sprint there will be a lot of stories about u.i., then the team expects to be faster.
+The team can realize that all the stories tagged as “back end logic” has been realized in twice the time respect to the initial estimations, so looking at them, the focus factor should be 50%.
+However may be that the team estimated correctly the u.i. stories, and then looking at the velocity for the u.i. The focus factor is 100%, so if in the next sprint there will be a lot of stories about u.i., then the team expects to be faster.
 
 Examples:
 // create stories
